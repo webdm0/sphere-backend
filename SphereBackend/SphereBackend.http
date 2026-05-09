@@ -1,0 +1,33 @@
+@SphereBackend_HostAddress = https://localhost:7243
+@ContentType = application/json
+
+### Validate current session
+GET {{SphereBackend_HostAddress}}/api/auth/session
+Accept: application/json
+
+### Register
+POST {{SphereBackend_HostAddress}}/api/auth/register
+Content-Type: {{ContentType}}
+
+{
+  "username": "demo_user",
+  "email": "demo@example.com",
+  "password": "demo-password"
+}
+
+### Login
+POST {{SphereBackend_HostAddress}}/api/auth/login
+Content-Type: {{ContentType}}
+
+{
+  "identifier": "demo_user",
+  "password": "demo-password"
+}
+
+### Refresh session
+POST {{SphereBackend_HostAddress}}/api/auth/refresh
+Accept: application/json
+
+### Logout
+POST {{SphereBackend_HostAddress}}/api/auth/logout
+Accept: application/json
