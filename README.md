@@ -38,7 +38,7 @@ The screenshots below are from the companion frontend and show the product flows
 ### Walkthrough Video
 A short walkthrough shows the product flow end to end: sign-in flow, board creation, columns, cards, drag-and-drop ordering, card editing, and board updates.
 
-- Video: [View walkthrough]()
+- Video: [View walkthrough](https://github.com/webdm0/sphere-frontend/releases/download/project-overview/project-overview.mp4)
 
 ### Live Demo
 
@@ -46,7 +46,7 @@ The hosted version is optimized for quick review through instant demo access. Us
 
 ![Try demo](./docs/gifs/try-demo.gif)
 
-- Live app: [View live demo]()
+- Live app: [View live demo](https://sphere-workspace.vercel.app/)
 
 Demo sessions last 1 hour and are cleaned up automatically. Some account-to-account collaboration features are disabled for demo users. Full email confirmation is implemented in the backend; the hosted demo focuses on instant demo access instead of public signup.
 
